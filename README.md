@@ -1,7 +1,5 @@
 # Landing-Page
 
 
-Landing page, stylo.
-marque Good'is en collab.
-dev en mobile first
-(en cours...)
+Landing page pour promotion d'un stylo.
+HTML/CSS + MobileFirst

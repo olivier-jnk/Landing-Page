@@ -25,9 +25,7 @@ footer h3, span, h1, h2{
 p, a, h1, h2{
     font-family: Roboto;
     color: black;
-
 }
-
 
 header{
     display: flex;
@@ -42,8 +40,7 @@ header{
 header .logo{
     font-size: 3vw;
     font-weight: 900;
-    color: rgb(0, 0, 0);
-    
+    color: rgb(0, 0, 0);  
 }
 
 header span.logo {
@@ -63,6 +60,7 @@ main{
     display: flex;
     justify-content: center;
 }
+
 article{
     display: flex;
     flex-direction: column;
@@ -100,6 +98,7 @@ article{
     justify-content: center;
     align-items: center;
 }
+
 .footer .reseaux img{
     height: 5vw;
 }
@@ -149,5 +148,3 @@ article{
         height: 3vw;
     }
 }
-
-

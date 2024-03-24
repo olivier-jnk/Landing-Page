@@ -4,21 +4,9 @@
 }
 
 @font-face {
-    font-family: PTSans;
-    src: url(fonts/PTSans-Regular.ttf);
-}
-
-@font-face {
     font-family: Roboto;
     src: url(fonts/Roboto-Regular.ttf);
 }
-
-@font-face {
-    font-family: Blacksword;
-    src: url(fonts/Blacksword.otf);
-}
-
-
 
 *{
     margin: 0;
@@ -45,7 +33,6 @@ h1, h2, h3, span{
     font-family: Anton;
 }
 
-/* header */
 header{
     display: flex;
     justify-content: center;
@@ -72,7 +59,6 @@ header .logo{
 
  .infos:focus {
     padding-left: 20px; 
-    /* Ajuste la valeur quand input est en focus */
 }
 
 .fcontent{
@@ -135,8 +121,7 @@ header .logo{
     gap: 40px;
     margin-top: 5%;
     margin-bottom: 5%;
-    position: relative;
-    
+    position: relative;  
 }
 
 .qualities img{
@@ -161,7 +146,6 @@ header .logo{
     flex-direction: column;
     justify-content: center;
     max-width: 85vw;
-
 }
 
 .quality .txt h2{
@@ -177,7 +161,6 @@ header .logo{
     color: #cd855d;
 }
 
-
 .confort .txt h2{
     color: #ef86fb;
 }
@@ -190,10 +173,10 @@ header .logo{
     color: #80ece5;
 
 }
+
 .fluidite .txt p{
     color: #c2d8db;
 }
-
 
 .bottom{
     display: flex;
@@ -262,6 +245,7 @@ button.preco{
     gap: 5px;
     margin: 3%;
 }
+
 .preco{
     color: white;
     background-color: black;
@@ -278,7 +262,6 @@ button.preco{
 .precommander .precom p{
     font-size: 3vw;
     max-width: 70vw;
-
 }
 
 .form{
@@ -310,6 +293,7 @@ button.preco{
     flex-direction: column;
     gap: 5px;
 }
+
 .form .form-example{
     display: flex;
     justify-content: space-between;
@@ -361,8 +345,6 @@ button.preco{
     text-decoration: underline;
 }
 
-
-
 .footer .infos{
     display: flex;
     justify-content: space-between;
@@ -375,6 +357,7 @@ button.preco{
     justify-content: center;
     align-items: center;
 }
+
 .footer .reseaux img{
     height: 5vw;
 }
@@ -422,6 +405,7 @@ button.preco{
         flex-direction: row;
         margin: 5% 5% 2% 5%;
     }
+
     .quality.deux{
         flex-direction: row-reverse;
         margin: 5% 5% 2% 5%;
@@ -429,7 +413,6 @@ button.preco{
 
     .qualities img{
         width: 30vw;
-
     }
 
     .mid{
@@ -496,6 +479,7 @@ button.preco{
     .form h2 {
         margin: 0;
     }
+
     .form .forms{
         display: flex;
         flex-direction: row;
@@ -547,7 +531,6 @@ button.preco{
     .footer ul.legal{
         justify-content: space-between;
         flex-direction: column;
-
     }
 
     .footer .infos h2 {
